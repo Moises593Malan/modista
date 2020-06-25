@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 300; 400; 800 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+				/*Cabecera*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+html, body{
+	color: #f2f2f2;
+	line-height: 1.7;
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	letter-spacing: 0px;
+}
+
+.cont{
+	position: relative;
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-image: url('../imagenes/fondo.jpg');
+	background-size: cover;
+}
+
+.cont .log{
+	padding-top: 180px; 
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+.modista .log .mod{
+	letter-spacing: 1px;
+	font-size: 90px;
+	font-family: 'Leckerli One', cursive;
+	text-stroke: 1px #f2f2f2;
+	-webkit-text-stroke: 1px #f2f2f2;
+	-moz-text-stroke: 1px #f2f2f2;
+     color: transparent;
+}
+
+.cont .bot{
+	position: absolute;
+	padding-top: 400px; 
+	width: 100%;
+	height: 500px;
+}
+
+.modista .bot .btn{
+	width: 10%;
+	text-decoration: none;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	background: #04B486;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+
+.modista .bot .btn:hover{
+	color: #fff;
+	background: #01DFA5;
+}
+
+.cont .hmano{
+	background: #070707;
+	width: 20%;
+	height: 35px;
+	position: absolute;
+	margin: 525px 0px 0px 0px;
+	border-right: 5px solid #f2f2f2; 
+}
+
+.cont .hmano p{
+	font-weight: 500;
+	margin: 5px auto;
+}
+
+						/*Acerca de mi*/
+
+.mi{
+	text-align: center;
+	background: #f2f2f2;
+	position: relative;
+	width: 100%;
+	padding-top: 70px;
+	height: 650px;
+}
+
+.mi .headline{
+	background: #1c1c1c;
+	width: 25%;
+	padding: 8px;
+	margin:0px auto 0px;
+	font-size: 20px;
+}
+
+.about{
+	position: absolute;
+	width: 45%;
+	height: 400px;
+	margin: 70px 0px 0px 0px;
+	background-image: url('../imagenes/about.jpg');
+	background-size: 100%;
+	padding: 20px;
+}
+
+.perfil .imap{
+	overflow: hidden;
+	width: 170px;
+	height: 170px;
+	margin: 40px auto 0px;
+	border-radius: 100px 100px 100px 100px;
+}
+
+.perfil img{
+	object-fit: cover;
+}
+
+.about .nam{
+	background: #088A68;
+	width: 45%;
+	margin: 20px auto;
+	font-size: 25px;
+	border-left: 10px solid #f2f2f2;
+}
+
+.mi .line{
+	position: absolute;
+	display: inline-block;
+	color: #333;
+	width: 45%;
+	height: 440px;
+	margin: 70px auto;
+}
+
+.line p{
+	font-size: 20px;
+	padding: 50px 20px 0px 20px; 
+}
+
+.line b{
+	font-family: 'Passion One', cursive;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+						/*Servicios*/
+
+.serv{
+	position: relative;
+	background-image: url('../imagenes/services.jpg');
+	background-size: cover;
+	width: 100%;
+	padding-top: 70px;
+	height: 650px;
+}
+
+.serv .headline2{
+	text-align: center;
+	background: #f2f2f2;
+	width: 25%;
+	color: #333;
+	padding: 8px;
+	margin:auto;
+	font-size: 20px;
+}
+
+.serv .cont2{
+	text-align: justify-all;
+	display: flex;
+	width: 80%;
+	margin: 20px auto auto ;
+}
+
+.cont2 div{
+	width: 40%;
+	margin: 10px;
+}
+
+.cont2 .cuni{
+	background: #DF7401;
+	padding: 20px
+}
+
+.cont2 .crop{
+	background: #0489B1;
+	padding: 20px; 
+}
+
+.cont2 .comp{
+	background: #B43104;
+	padding: 20px;	
+}
+
+.cont2 .tit{
+	text-align: center;
+}
+
+.serv .folio{
+	display: flex;
+	width: 80%;
+	margin: 15px auto;
+}
+
+.folio .cajas{
+	opacity:  0.75;
+	margin: 5px;
+	transition: 0.3s;
+}
+
+.cajas img{
+	width: 100%;
+}
+
+.folio .cajas:hover{
+	opacity: 1;
+}
+
+						/*Contactos*/
+
+.dat{
+	background: #f2f2f2;
+	position: relative;
+	width: 100%;
+	padding-top: 60px;
+	height: 650px;
+}
+
+.dat .headline3{
+	text-align: center;
+	background: #1c1c1c;
+	width: 25%;
+	padding: 8px;
+	margin: auto;
+	font-size: 20px;
+}
+
+.cont3{
+	background-image: url('../imagenes/cut.jpg');
+	background-size: cover;
+	text-align: center;
+	width: 70%;
+	margin: 50px auto;
+	height: 500px;
+}
+
+.cont3 .conta{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	opacity: 0.7;
+}
+
+.conta p{
+	background: #1c1c1c;
+	display: block;
+	width: 40%;
+	margin: 170px 8px 40px;
+	padding: 10px;
+	border-top: 5px  solid #f2f2f2;
+	opacity: 1;
+}
+
+.cont3 a{
+	text-decoration: none;
+	color: #f2f2f2;
+}
+
+.cont3 .mail{
+	background: #444;
+	padding: 5px;
+	border-radius: 6px;
+	opacity: 0.80;					
+}
+
+.cont3 .fb{	
+	background: #0174DF;
+	display: block;
+	margin: 10px auto;
+	width: 50px;
+	font-weight: 700;
+	font-size: 1.6em;
+	border-radius: 3px;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+
+.fb:hover{
+	background: #2E9AFE;
+	color: #f2f2f2;
+}
+
+						/*Pie de página*/
+
+.fot {
+    background: #1c1c1c;
+    text-align: center;
+    height: 100px
+}
+
+.fot .copy{
+    color: #f2f2f2;
+    padding: 20px;
+}
